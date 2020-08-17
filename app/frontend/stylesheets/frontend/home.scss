@@ -1,32 +1,40 @@
 body {
-  background-color: black;
-  color: white;
+	background-color: black;
+	color: white;
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
+	a {
+		color: white;
+		text-decoration: none;
+	}
 }
 
 section.home {
-  background-color: black;
-  text-align: center;
+	background-color: black;
+	text-align: center;
 
-  .menu {
-    display: inline-block;
-    text-align: left;
-    padding: 3px;
+	.menu {
+		display: inline-block;
+		text-align: left;
+		padding: 3px;
 
-    ul {
-      margin: 0;
-      padding: 0;
+		ul {
+			margin: 0;
+			padding: 0;
 
-      li.list {
-        color: white;
-        list-style: none;
-        margin: 2px 0;
-        font-size: 22px;
-      }
-    }
-  }
+			li.list {
+				color: white;
+				list-style: none;
+				margin: 2px 0;
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+nav.pagination {
+	span {
+		border: 1px white solid;
+		margin-right: 2px;
+		padding: 2px;
+	}
 }

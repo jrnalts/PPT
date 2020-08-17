@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   resources :boards do
     member do
       post :favorite
+      put :hide #PUT /boards/2/hide
     end
 
     resources :posts, shallow: true do

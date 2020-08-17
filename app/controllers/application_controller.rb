@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
 
   helper_method :user_signed_in?, :current_user
 
+  include Pundit
+
   private
   def not_found
     render file: '/public/404.html',
