@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'aasm', '~> 5.1', '>= 5.1.1'
 gem 'pundit', '~> 2.1'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
+gem "braintree", "~> 2.102.0"
+gem 'figaro', '~> 1.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

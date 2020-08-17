@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   root "pages#index"
   get "/about", to: "pages#about"
-  get "princing", to: "page#pricing"
-
+  get "/pricing", to: "pages#pricing"
+  get "/payment", to: "pages#payment"
+  post "/checkout", to: "pages#checkout"
+ 
   namespace :api do
     namespace :v2 do
       resources :boards, only: [:index]
